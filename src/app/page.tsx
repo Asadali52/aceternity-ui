@@ -9,6 +9,8 @@ import AssignUnassign from "@/globalComponent/modal/AssignUnassign";
 
 export default function Home() {
   return (
+    <>
+    <h1 className="text-[30px] font-[600] text-[red] my-2 text-center">My First Repo</h1>
     <div className="bg-green-700 p-8">
       <h1 className="font-[600] text-[30px]  bg-white  text-center">This is div</h1>
       <div className="flex gap-4 my-6 justify-evenly">
@@ -27,5 +29,6 @@ export default function Home() {
       <Tabs/>
       <AssignUnassign/>
     </div>
+    </>
   );
 }
