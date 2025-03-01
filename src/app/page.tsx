@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { ThreeDCard } from '@/globalComponent/ThreeDCard';
 import RadialChart from "@/globalComponent/charts/RadialChart";
 import ColumnChart from "@/globalComponent/charts/ColumnChart";

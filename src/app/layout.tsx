@@ -16,6 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <title>My First Repo</title>
       <body className={`font-extralight font-mono`}>{children}</body>
     </html>
   );
